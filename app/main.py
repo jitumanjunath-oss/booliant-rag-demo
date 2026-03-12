@@ -200,6 +200,7 @@ class Citation(BaseModel):
     source_file: str
     chunk_index: int
     score: float
+    text: str
 
 class AskResponse(BaseModel):
     status: str
@@ -234,13 +235,14 @@ def ask(req: AskRequest):
     )
 
     citations = [
-        Citation(
-            source_file=r["source_file"],
-            chunk_index=r["chunk_index"],
-            score=r["score"],
-        )
-        for r in results
-    ]
+    Citation(
+        source_file=r["source_file"],
+        chunk_index=r["chunk_index"],
+        score=r["score"],
+        text=r.get("text", "")
+    )
+    for r in results
+]
 
     return AskResponse(
         status="ok",
