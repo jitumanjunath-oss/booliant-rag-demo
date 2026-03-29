@@ -10,7 +10,15 @@ This prototype illustrates how AI can be used to build intelligent knowledge ass
 
 ## Demo
 
-![RAG Demo](docs/demo.png)
+### Upload Document
+![Upload](docs/demo-4.png)
+
+### Ask Question
+![Question](docs/demo-5.png)
+
+### AI Answer with Citations
+![Answer](docs/demo-7.png)  
+![Answer](docs/demo-8.png)  
 
 Example workflow:
 
