@@ -11,14 +11,14 @@ This prototype illustrates how AI can be used to build intelligent knowledge ass
 ## Demo
 
 ### Upload Document
-![Upload](docs/Demo-4.png)
+![Upload](docs/demo-4.png)
 
 ### Ask Question
-![Question](Docs/Demo-5.png)
+![Question](docs/demo-5.png)
 
 ### AI Answer with Citations
-![Answer](docs/Demo-7.png)  
-![Answer](docs/Demo-8.png)  
+![Answer](docs/demo-7.png)  
+![Answer](docs/demo-8.png)  
 
 Example workflow:
 
