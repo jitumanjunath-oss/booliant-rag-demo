@@ -19,6 +19,11 @@ This prototype demonstrates:
 """
 )
 
+st.warning(
+    "This is a demonstration system. Please do not upload sensitive, confidential, "
+    "or regulated data. Documents are processed for demo purposes only."
+)
+
 if "file_id" not in st.session_state:
     st.session_state.file_id = None
 if "saved_as" not in st.session_state:
@@ -36,6 +41,8 @@ with tab1:
         type=["pdf", "docx", "txt"]
     )
 
+    st.caption("Do not upload sensitive or confidential files. PDF recommended.")
+    
     if uploaded_file is not None:
         st.write(f"Selected file: **{uploaded_file.name}**")
 
