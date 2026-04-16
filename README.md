@@ -1,6 +1,8 @@
 # Booliant AI Document Intelligence Demo
 
-AI-powered document intelligence system that allows users to upload documents and ask questions with source-backed answers.
+Turn unstructured documents into actionable insights using AI.
+
+This demo showcases how enterprises can upload documents, ask natural language questions, and receive accurate, source-backed answers in seconds.
 
 ## 🚀 Live Demo
 
@@ -13,6 +15,23 @@ AI-powered document intelligence system that allows users to upload documents an
 - Ask natural language questions
 - Get answers with citations
 
+## 💼 Why this matters
+
+Organizations deal with large volumes of unstructured documents such as SOPs, contracts, and research reports.
+
+This solution enables:
+- Faster decision making
+- Reduced manual document review
+- Improved knowledge accessibility
+- AI-powered workflows grounded in real data
+
+## 🎯 Example Use Cases
+
+- Clinical trial and research documentation
+- Compliance and regulatory documents
+- Internal knowledge bases and SOPs
+- Legal and contract analysis
+- Enterprise document search and Q&A
 ## 🏗️ Tech Stack
 
 - FastAPI (backend APIs)
